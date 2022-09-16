@@ -125,6 +125,14 @@ body {
     font-weight: 400;
 }
 
+.hero-img {
+    width: 600px;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
 @media screen and (min-width: 2400px){
     .container {
         width: 80%;
