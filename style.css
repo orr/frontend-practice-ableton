@@ -14,10 +14,13 @@ body {
     width: 100%;
     background-color: #FFFFFF;
     margin: 0 auto;
+    max-width: 1600px;
+
 }
 
 .menu {
     margin-right: auto;
+    
 }
 
 .menu-header {
@@ -25,7 +28,7 @@ body {
     flex-direction: column;
     padding: 1.25rem 2.5rem;
     border-bottom: 2px solid #F3F3F3;
-   
+    margin: 0 auto;
 }
 
 .menu-header-top {
@@ -55,7 +58,7 @@ body {
 }
 
 .nav-li > a.more {
-    color: #FFC0AE;
+    color: #FF764D;
 }
 
 .registration a {
@@ -133,6 +136,23 @@ body {
     width: 100%;
 }
 
+.fixed-header ul {
+    display: flex;
+    gap: 3rem;
+    padding: 1.25rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+    
+}
+
+.fixed-header ul a {
+    text-decoration: none;
+}
+
+.active {
+    color: #FF764D;
+}
 @media screen and (min-width: 2400px){
     .container {
         width: 80%;
