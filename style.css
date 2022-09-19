@@ -218,6 +218,32 @@ body {
     font-weight: 400;
 }
 
+.why {
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.showcase-green {
+    display: flex;
+    width: 100%;
+    height: 1200px;
+    background-image: linear-gradient(90deg, #B6FFC0 60%, #ffffff 40%);
+    justify-content: space-around;
+}
+
+.showcase-green-left{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    justify-content: center;
+}
+
+.showcase-green-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (min-width: 2400px){
     .container {
         width: 80%;
